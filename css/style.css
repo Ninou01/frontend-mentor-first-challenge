@@ -33,8 +33,7 @@ body {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 146px;
+    height: 161px;
     border-radius: 20px 20px 0 0;
     margin-bottom: 30px;
 }
@@ -50,24 +49,23 @@ body {
 }
 
 .card p {
-    max-width: 85%;
-    line-height: 22px;
-    color: var(--desaturated-blue, hsl(224, 23%, 55%));
+    max-width: 90%;
     margin: auto;
-    font-weight: 500;
     margin-bottom: var(--bottom-margin,20px);
+    color: var(--desaturated-blue, hsl(224, 23%, 55%));
+    line-height: 22px;
 }
 
 .card .plan {
     display: flex;
-    background-color: var(--very-pale-blue, hsl(225, 100%, 98%));
-    margin: auto;
-    width: 90%;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
-    padding: 10px;
+    background-color: var(--very-pale-blue, hsl(225, 100%, 98%));
+    width: 90%;
+    margin: auto;
     margin-bottom: var(--bottom-margin);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .card .plan img {
@@ -78,7 +76,6 @@ body {
 .card .plan div {
     display: flex;
     flex-direction: column;
-    justify-content: revert;
     font-size: 14px;
 }
 
@@ -95,11 +92,6 @@ body {
     font-size: 14px;
     font-weight: 700;
     color: var(--bright-blue, hsl(245, 75%, 52%));
-}
-
-.card .plan a:active {
-    text-decoration: none;
-    color: hsla(245, 75%, 52%, 0.8);
 }
 
 button {
@@ -126,6 +118,11 @@ button.cancel {
     color: var(--desaturated-blue);
 }
 
+.card .plan a:active {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.8);
+}
+
 button.proceed:active {
     background-color: hsla(245, 75%, 52%, 0.8);
 }
@@ -142,6 +139,10 @@ button.cancel:active {
 
     .container {
         width: 370px;
+    }
+
+    .hero {
+        height: 181px;
     }
 
     .card {
